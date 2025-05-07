@@ -1,10 +1,20 @@
+$primary-font: Roboto Condensed, sans-serif;
+$primary-bg: #FFD2A4;
+
+@mixin margin {
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+@import 'landingtext';
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body, button, a {
-  font-family: Roboto Condensed, sans-serif;
+  font-family: $primary-font
 }
 
 
@@ -24,8 +34,7 @@ body, button, a {
 .header-img {
   display: flex;
   gap: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
+  @include margin()
 }
 
 .header-imagefile {
@@ -58,15 +67,15 @@ body, button, a {
   align-self: center;
   border-radius: 10px;
   border: none;
-  background-color: #FFD2A4;
+  background-color: $primary-bg;
   margin-right: 5%;
   transition: background-color 0.8s;
 }
 
 .header-link-button:hover {
   background-color: black;
-  color: #FFD2A4;
-  border: 1px solid #FFD2A4;
+  color: $primary-bg;
+  border: 1px solid $primary-bg;
   cursor: pointer;
 }
 
@@ -143,15 +152,15 @@ body, button, a {
   top: 72%;
   border: none;
   padding: 15px 25px;
-  background-color: #FFD2A4;
+  background-color: $primary-bg;
   border-radius: 10px;
   transition: background-color 0.8s;
 }
 
 .landing-button:hover {
   background-color: black;
-  color:#FFD2A4;
-  border: 1px solid #FFD2A4;
+  color:$primary-bg;
+  border: 1px solid $primary-bg;
   cursor: pointer;
 }
 
@@ -174,19 +183,6 @@ body, button, a {
 .landing-dash {
   width: 15px;
   height: 2px;
-  background-color: #FFD2A4;
+  background-color: $primary-bg;
 }
 
-.landing-tagline {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 27px;
-  font-weight: bold;
-  margin-bottom: 150px;
-}
-
-.landing-text-section {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 120px;
-}
