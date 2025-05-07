@@ -1,10 +1,12 @@
 import landingtexts from "../data/landingtext";
 import carousels from "../data/carousel";
+import arrow from "../assets/arrow.svg";
 
 export function LandingText() {
   return(
     <main className="landing-text-section">
-      <div className="landing-tagline">A church that's family</div>
+      <div className="landing-tagline church">A church that's family</div>
+      <div className="landing-text-tagline">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. <br></br>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
 
       <div className="landing-grid-con">
       {landingtexts.map(text => (
@@ -42,9 +44,22 @@ export function LandingText() {
       </div>
       
       {/* Mission Vision section intro */ }
+      <div className="landing-mission-div">
       <div className="landing-text-mission-con">our mission & vision</div>
       <div className="landing-tagline celebrate">celebrate with us</div>
+      <div className="landing-tagline-celebrate-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<br></br> Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</div>
 
+      <div className="landing-tagline-readmore-con">
+        <div className="landing-tagline-readmore">Read More</div>
+        <img src={arrow} className="landing-tagline-arrow" />
+      </div>
+      </div>
+
+
+      {/* Watch & Listen section intro */ }
+      <div className="landing-watch-listen-con">
+        <div className="landing-text-watch-con">watch and listen</div>
+      </div>
     </main>
   );
 }
