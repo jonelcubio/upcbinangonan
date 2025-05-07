@@ -15,8 +15,12 @@
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: 150px;
-  margin-top: 100px;
+}
+
+@mixin p {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .landing-tagline {
@@ -192,8 +196,17 @@
 
 .landing-watch-listen-con {
   @include margin();
+  margin-bottom: 100px;
 }
 
 .landing-text-watch-con {
   @include littleheader();
+}
+
+.landing-text-benefits {
+  @include bigheader();
+}
+
+.landing-text-watch-text {
+  @include p(); 
 }

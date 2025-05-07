@@ -59,6 +59,8 @@ export function LandingText() {
       {/* Watch & Listen section intro */ }
       <div className="landing-watch-listen-con">
         <div className="landing-text-watch-con">watch and listen</div>
+        <div className="landing-text-benefits benefits">the benefits of joining our church</div>
+        <div className="landing-text-watch-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<br></br> Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</div>
       </div>
     </main>
   );
