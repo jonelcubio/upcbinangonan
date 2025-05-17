@@ -14,8 +14,9 @@ export function Landing() {
         <Header />
 
         <div className="landing-text-center-con ">
-          <div className="landing-text-one">Empowered by the Spirit. Anchored in Truth.</div>
-          <div className="landing-text-two">Apostolic. Pentecostal. Unapologetically Jesus Name.</div>
+          <div className="landing-text-one">Empowered by the Spirit.</div>
+          <div className="landing-text-two">"one Lord, one faith, one baptism; one God and Father of all, who is above all, and through all, and in you all."</div>
+          <div className="landing-text-three">Ephesians 4:5-6 (NKJV)</div>
 
           <button className="landing-text-button">Button</button>
         </div>

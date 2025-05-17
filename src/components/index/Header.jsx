@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.png";
-import white from "../../assets/white.png";
+import whiteLogo from "../../assets/white.png";
 
 export function Header() {
   return(
@@ -7,7 +7,7 @@ export function Header() {
       <div className="header-con absolute top-0 my-[2%] mx-[8%]">
 
         <div className="header-img-con">
-          <img src={white} className="header-image" />
+          <img src={whiteLogo} className="header-image" />
         </div>
       </div>
 
