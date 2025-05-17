@@ -1,24 +1,30 @@
 import logo from "../../assets/logo.png";
 import whiteLogo from "../../assets/white.png";
+import fb from "../../assets/fb.png";
 
 export function Header() {
   return(
-    <main>
-      <div className="header-con absolute top-0 my-[2%] mx-[8%]">
+    <main className="header-main">
+      <div className="header-con-list">
 
-        <div className="header-img-con">
-          <img src={whiteLogo} className="header-image" />
+        <div className="header-brand-con">
+          <img src={whiteLogo} className="header-brand-img" />
         </div>
-      </div>
 
-      <div className="absolute top-0 my-[2%] py-[15px] mx-[30%] w-[380px]"></div>
+        <div className="header-nav-con">
+          <div className="header-nav">HOME</div>
+          <div className="header-nav">ABOUT US</div>
+          <div className="header-nav">PREACHING</div>
+          <div className="header-nav">BLOG</div>
+        </div>
 
-      <div className="header-navigational-link-con">
-        <div className="header-navigational-link">Home</div>
-        <div className="header-navigational-link">About</div>
-        <div className="header-navigational-link">Services</div>
-        <div className="header-navigational-link">Contact</div>
-        <button className="header-navigational-button">Button</button>
+        <div className="header-space"></div>
+
+        <div className="header-button-con">
+          <button className="header-button">
+            <img src={fb} className="header-button-link" />
+          </button>
+        </div>
       </div>
     </main>
   );

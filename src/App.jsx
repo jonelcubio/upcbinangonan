@@ -6,6 +6,7 @@ export function App() {
     <>
     <Header />
     <Landing />
+    
     </>
   );
 }
