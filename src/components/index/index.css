@@ -7,32 +7,48 @@
 }
 
 .header-brand-img {
-  @apply w-14 hover:cursor-pointer hover:opacity-80 active:opacity-5
+  @apply w-14 hover:cursor-pointer hover:opacity-80 active:opacity-5;
+  @apply lg:w-13;
+  @apply md:w-13;
+  @apply sm:mx-auto sm:w-12;
+  @apply xl:w-14;
 }
 
 .header-nav-con {
-  @apply text-white py-2.5 flex px-5 gap-10 mx-45 items-center font-light flex-wrap text-sm;
+  @apply text-white py-2.5 flex px-5 gap-10 mx-45 items-center font-light text-sm;
+  @apply lg:text-[12px] lg:gap-12;
+  @apply md:text-[12px] md:justify-center md:items-center md:mx-auto;
+  @apply sm:text-[11px] sm:mx-auto;
+  @apply xl:text-[15px];
 }
 
 .header-nav {
-  @apply hover:cursor-pointer hover:border-b-2 border-white active:opacity-5
+  @apply hover:cursor-pointer hover:border-b-2 border-white active:opacity-5;
+  
 }
 
 .header-space {
   @apply text-white py-4 flex px-5 w-[28%];
+  @apply lg:hidden;
+  @apply md:hidden;
+  @apply sm:hidden;
 }
 
 .header-button-con {
-  @apply my-1.5
-}
+  @apply my-1.5;
+  @apply lg:hidden
+
+} 
 
 .header-button {
   @apply border-1 py-2 px-2 rounded-full bg-white;
   @apply hover:cursor-pointer hover:opacity-80 active:opacity-5;
+  @apply hidden lg:inline-block;
 }
 
 .header-button-link {
-  @apply w-6
+  @apply w-6;
+  @apply lg:hidden;
 }
 
 .landing-image {
