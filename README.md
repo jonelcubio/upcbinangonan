@@ -37,13 +37,19 @@ Thank you for your interest in contributing! To submit changes or improvements v
    cd upcbinangonan
 
 3. **Create a new branch** for your feature or fix:
+
+   ```bash
    git checkout -b feature-or-fix-name
 
 4. **Make your changes** and commit them with clear messages:
+
+    ```bash
     git add .
     git commit -m "Describe your changes here"
 
 5. **Push your branch** to your fork:
+
+    ```bash
     git push origin feature-or-fix-name
 
 6. Go to the original repository on GitHub and open a **Pull Request** from your fork/branch.
