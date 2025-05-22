@@ -1,25 +1,27 @@
 @import "tailwindcss";
 
-
+body {
+  overflow-x: hidden
+}
 
 .header-con-list {
   @apply bg-black py-5 px-28 fixed w-screen flex shadow-md absolute z-10;
 }
 
 .header-brand-img {
-  @apply w-14 hover:cursor-pointer hover:opacity-80 active:opacity-5;
-  @apply lg:w-13;
-  @apply md:w-13;
   @apply sm:mx-auto sm:w-12;
+  @apply md:w-13;
+  @apply lg:w-13;
   @apply xl:w-14;
+  @apply w-14 hover:cursor-pointer hover:opacity-80 active:opacity-5;   
 }
 
 .header-nav-con {
-  @apply text-white py-2.5 flex px-5 gap-10 mx-45 items-center font-light text-sm;
-  @apply lg:text-[12px] lg:gap-12;
-  @apply md:text-[12px] md:justify-center md:items-center md:mx-auto;
   @apply sm:text-[11px] sm:mx-auto;
+  @apply md:text-[12px] md:justify-center md:items-center md:mx-auto;
+  @apply lg:text-[14px] lg:gap-12;
   @apply xl:text-[15px];
+  @apply text-white py-2.5 flex px-5 gap-10 mx-45 items-center font-light text-sm;
 }
 
 .header-nav {
@@ -28,15 +30,16 @@
 }
 
 .header-space {
-  @apply text-white py-4 flex px-5 w-[28%];
-  @apply lg:hidden;
-  @apply md:hidden;
   @apply sm:hidden;
+  @apply md:hidden;
+  @apply lg:hidden;
+  @apply text-white py-4 flex px-5 w-[28%];
 }
 
 .header-button-con {
+  @apply lg:hidden;
   @apply my-1.5;
-  @apply lg:hidden
+  
 
 } 
 
@@ -47,8 +50,9 @@
 }
 
 .header-button-link {
-  @apply w-6;
   @apply lg:hidden;
+  @apply w-6;
+  
 }
 
 .landing-image {
@@ -56,19 +60,31 @@
 }
 
 .landing-image-con {
-  @apply relative
+ @apply relative;
 }
 
 .landing-text-con {
-  @apply absolute top-95 left-87 text-white text-center text-shadow-lg cursor-default
+  @apply sm:top-1/2 sm:left-1/2 sm:-translate-x-[45%] sm:-translate-y-[70%];
+  @apply md:top-1/2 md:left-1/2 md:-translate-x-[45%] md:-translate-y-[70%];
+  @apply lg:top-1/2 lg:left-1/2 lg:-translate-x-[45%] lg:-translate-y-[-50%];
+  @apply xl:top-1/2 xl:left-1/2 xl:-translate-x-[45%] xl:-translate-y-[-50%]; 
+  @apply top-1/2 left-1/2 -translate-x-[45%] -translate-y-[20%];
+  @apply absolute text-white text-center text-shadow-lg cursor-default;
+
 }
 
 .landing-text-head {
- @apply text-5xl font-bold pb-5
+  @apply sm:text-lg;
+  @apply md:text-xl;
+  @apply lg:text-2xl; 
+  @apply xl:text-3xl;  
+  @apply 2xl:text-4xl;
+  @apply text-4xl font-bold py-5;
+
 }
 
 .landing-text-verse {
-  @apply text-lg italic
+  @apply xl:text-lg xl:italic;
 }
 
 .landing-text-bibleverse {
