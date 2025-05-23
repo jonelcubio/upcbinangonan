@@ -9,31 +9,20 @@ body {
 }
 
 .header-brand-img {
-  @apply sm:mx-auto sm:w-12;
-  @apply md:w-13;
   @apply lg:w-13;
   @apply xl:w-14;
   @apply w-14 hover:cursor-pointer hover:opacity-80 active:opacity-5;   
 }
 
 .header-nav-con {
-  @apply sm:text-[11px] sm:mx-auto;
-  @apply md:text-[12px] md:justify-center md:items-center md:mx-auto;
-  @apply lg:text-[14px] lg:gap-12;
-  @apply xl:text-[15px];
-  @apply text-white py-2.5 flex px-5 gap-10 mx-45 items-center font-light text-sm;
-}
+  @apply hidden lg:flex;
+  @apply xl:text-[13px];
+  @apply text-white py-2.5 px-5 gap-10 items-center font-light text-sm mx-30;
+  }
 
 .header-nav {
   @apply hover:cursor-pointer hover:border-b-2 border-white active:opacity-5;
   
-}
-
-.header-space {
-  @apply sm:hidden;
-  @apply md:hidden;
-  @apply lg:hidden;
-  @apply text-white py-4 flex px-5 w-[28%];
 }
 
 .header-button-con {
@@ -56,7 +45,7 @@ body {
 }
 
 .landing-image {
-  @apply w-screen h-3/4
+  @apply w-screen h-3/4 object-cover;
 }
 
 .landing-image-con {
@@ -64,8 +53,7 @@ body {
 }
 
 .landing-text-con {
-  @apply sm:top-1/2 sm:left-1/2 sm:-translate-x-[45%] sm:-translate-y-[70%];
-  @apply md:top-1/2 md:left-1/2 md:-translate-x-[45%] md:-translate-y-[70%];
+  @apply md:top-1/2 md:left-1/2 md:-translate-x-[45%] md:-translate-y-[50%];
   @apply lg:top-1/2 lg:left-1/2 lg:-translate-x-[45%] lg:-translate-y-[-50%];
   @apply xl:top-1/2 xl:left-1/2 xl:-translate-x-[45%] xl:-translate-y-[-50%]; 
   @apply top-1/2 left-1/2 -translate-x-[45%] -translate-y-[20%];

@@ -13,12 +13,12 @@ export function Header() {
 
         <div className="header-nav-con">
           <div className="header-nav">HOME</div>
-          <div className="header-nav">ABOUT US</div>
+          <div className="header-nav header-about">ABOUT US</div>
           <div className="header-nav">PREACHING</div>
           <div className="header-nav">BLOG</div>
         </div>
 
-        <div className="header-space"></div>
+        
 
         <div className="header-button-con">
           <button className="header-button">
