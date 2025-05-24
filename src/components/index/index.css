@@ -104,7 +104,7 @@ body {
 }
 
 .landing-message-love-compassion {
-  @apply pt-25 pb-5 text-4xl font-bold text-black text-center;
+  @apply pt-25 pb-5 text-4xl font-bold text-black text-center uppercase;
 }
 
 .landing-message-love-text {
@@ -116,5 +116,35 @@ body {
 }
 
 .landing-message-love-button {
-  @apply bg-amber-100 py-2.5 px-5 rounded-full text-sm font-semibold text-center;
+  @apply bg-amber-200 py-3 px-10 rounded-2xl text-sm font-semibold text-center mt-13;
+  @apply hover:cursor-pointer hover:bg-amber-300 active:bg-amber-400;
+}
+
+.landing-message-images-con {
+  @apply flex justify-center items-center gap-10 mb-10 mt-10;
+}
+
+.landing-message-img {
+  @apply w-52 rounded-2xl
+}
+
+.landing-message-mission-con {
+  @apply flex flex-col justify-center items-center gap-5 mb-10 mt-30;
+}
+
+.landing-message-mission-title {
+  @apply text-[16px] text-black text-center font-semibold;
+}
+
+.landing-message-mission-celebrate {
+  @apply text-4xl font-bold text-black text-center uppercase;
+}
+
+.landing-message-mission-text {
+  @apply text-center mx-22 text-sm pb-5
+}
+
+.landing-message-mission-button {
+  @apply text-sm bg-amber-200 py-1 px-2 rounded-2xl text-center;
+  @apply hover:cursor-pointer hover:bg-amber-400 active:bg-amber-500;
 }
