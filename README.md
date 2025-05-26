@@ -1,6 +1,6 @@
 # UPC Binangonan Church Website
 
-This is the official website for **UPC Binangonan Church**, built with **React.js** and styled using **Tailwind CSS**. The site is currently **under construction**, but a working version is already deployed on [Vercel](https://upcbinangonan.vercel.app/).
+This is the unofficial website for **UPC Binangonan Church**, built with **React.js** and styled using **Tailwind CSS**. The site is currently **under construction**, but a working version is already deployed on [Vercel](https://upcbinangonan.vercel.app/).
 
 ## Features
 
